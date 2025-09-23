@@ -1,0 +1,8 @@
+<!ELEMENT sinhvien (sinhvien+)>
+<!ELEMENT sinhvien (name, id, subjects)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT subjects (monhoc+)>
+<!ELEMENT monhoc (subject_name, score)>
+<!ELEMENT subject_name (#PCDATA)>
+<!ELEMENT score (#PCDATA)>
