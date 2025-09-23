@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE sinhvien SYSTEM "../buoi2_HuynhDangKhoa/sinhvien.dtd">
-<sinhvien>
+<!DOCTYPE sinhviens SYSTEM "../buoi2_HuynhDangKhoa/sinhvien.dtd">
+<sinhviens>
     <sinhvien>
         <name>Huỳnh Đăng Khoa</name>
         <id>SV001</id>
@@ -37,4 +37,4 @@
             </monhoc>
         </subjects>
     </sinhvien>
-</sinhvien>
+</sinhviens>

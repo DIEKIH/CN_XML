@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE benhvien SYSTEM "../buoi2_HuynhDangKhoa/benhvien.dtd">
+<!DOCTYPE hospital SYSTEM "../buoi2_HuynhDangKhoa/benhvien.dtd">
 <hospital xmlns="http://example.com/hospital"
           xmlns:pat="http://example.com/patient"
           xmlns:doc="http://example.com/doctor"

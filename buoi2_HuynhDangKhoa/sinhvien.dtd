@@ -1,4 +1,4 @@
-<!ELEMENT sinhvien (sinhvien+)>
+<!ELEMENT sinhviens (sinhvien+)>
 <!ELEMENT sinhvien (name, id, subjects)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT id (#PCDATA)>
