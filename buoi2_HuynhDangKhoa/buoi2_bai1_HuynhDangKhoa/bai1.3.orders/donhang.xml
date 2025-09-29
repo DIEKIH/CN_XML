@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE danhsach_donhang SYSTEM "donhang.dtd">
+<danhsach_donhang>
+    <order id="DH001">
+        <product id="P001">
+            <name>iPhone 14 Pro</name>
+            <quantity>2</quantity>
+        </product>
+        <product id="P002">
+            <name>AirPods Pro</name>
+            <quantity>1</quantity>
+        </product>
+        <product id="P003">
+            <name>MacBook Air</name>
+            <quantity>1</quantity>
+        </product>
+    </order>
+    <order id="DH002">
+        <product id="P004">
+            <name>Samsung Galaxy S23</name>
+            <quantity>3</quantity>
+        </product>
+        <product id="P005">
+            <name>Galaxy Watch</name>
+            <quantity>2</quantity>
+        </product>
+    </order>
+    <order id="DH003">
+        <product id="P006">
+            <name>iPad Air</name>
+            <quantity>1</quantity>
+        </product>
+        <product id="P007">
+            <name>Apple Pencil</name>
+            <quantity>2</quantity>
+        </product>
+        <product id="P008">
+            <name>Magic Keyboard</name>
+            <quantity>1</quantity>
+        </product>
+    </order>
+</danhsach_donhang>

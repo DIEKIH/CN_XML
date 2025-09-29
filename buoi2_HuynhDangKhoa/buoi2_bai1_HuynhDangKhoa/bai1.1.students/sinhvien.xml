@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE danhsach_sinhvien SYSTEM "sinhvien.dtd">
+<danhsach_sinhvien>
+    <sinhvien id="SV001">
+        <name>Huỳnh Đăng Khoa</name>
+        <dob>2000-05-15</dob>
+        <major>Công nghệ thông tin</major>
+    </sinhvien>
+    <sinhvien id="SV002">
+        <name>Lê Văn Dinh</name>
+        <dob>2001-08-22</dob>
+        <major>Quản trị kinh doanh</major>
+    </sinhvien>
+    <sinhvien id="SV003">
+        <name>Nguyễn Phúc Khang</name>
+        <dob>1999-12-10</dob>
+        <major>Kế toán</major>
+    </sinhvien>
+</danhsach_sinhvien>

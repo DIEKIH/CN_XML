@@ -1,0 +1,8 @@
+<!ELEMENT danhsach_sinhvien (sinhvien+)>
+<!ELEMENT sinhvien (name, dob, major)>
+<!ATTLIST sinhvien
+    id ID #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
