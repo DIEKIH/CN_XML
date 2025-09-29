@@ -38,6 +38,20 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+    
+    <xs:unique name="uniqueSanphamId">
+        <xs:selector xpath="sanpham"/>
+        <xs:field xpath="@id"/>
+    </xs:unique>
+    
+    <xs:unique name="uniqueOrderId">
+        <xs:selector xpath="order"/>
+        <xs:field xpath="@id"/>
+    </xs:unique>
+        <xs:keyref name="productRefKey" refer="uniqueSanphamId">
+        <xs:selector xpath="order/order_items/item"/>
+        <xs:field xpath="@productRef"/>
+    </xs:keyref>
 </xs:element>
 
 </xs:schema>
