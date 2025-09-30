@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xmlns="http://www.example.com/quanan"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.example.com/quanan QUANAN.xsd">
+        
+    <BAN>
+        <TENBAN>Ban 1</TENBAN>
+        <SOBAN>1</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>Ban 2</TENBAN>
+        <SOBAN>2</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>Ban 3</TENBAN>
+        <SOBAN>3</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>Ban 4</TENBAN>
+        <SOBAN>4</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>Ban 5</TENBAN>
+        <SOBAN>5</SOBAN>
+    </BAN>
+    
+    <NHANVIEN>
+        <MANV>NV001</MANV>
+        <TENNV>Huỳnh Đăng Khoa</TENNV>
+        <SDT>0123456789</SDT>
+        <DIACHI>Cần Thơ</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>khoa123</USERNAME>
+        <PASSWORD>1234567890</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV002</MANV>
+        <TENNV>Lê Văn Dinh</TENNV>
+        <SDT>0987654321</SDT>
+        <DIACHI>Vĩnh Long</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>dinhle</USERNAME>
+        <PASSWORD>ledinh1234</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV003</MANV>
+        <TENNV>Le Văn Mộng</TENNV>
+        <SDT>0912345678</SDT>
+        <DIACHI>Cần Thơ</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>mongle</USERNAME>
+        <PASSWORD>lemong1234</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV004</MANV>
+        <TENNV>Nguyễn Phúc Khang</TENNV>
+        <SDT>0234567890</SDT>
+        <DIACHI>Cần Thơ</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>khangguyen</USERNAME>
+        <PASSWORD>nguyenkhang</PASSWORD>
+    </NHANVIEN>
+  
+    
+    <MON>
+        <MAMON>MON001</MAMON>
+        <TENMON>Phở bò</TENMON>
+        <GIA>45000</GIA>
+        <HINHANH>phobo.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>MON002</MAMON>
+        <TENMON>Bún chả</TENMON>
+        <GIA>40000</GIA>
+        <HINHANH>buncha.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>MON003</MAMON>
+        <TENMON>CƠm sườn</TENMON>
+        <GIA>35000</GIA>
+        <HINHANH>comsuon.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>MON004</MAMON>
+        <TENMON>Bánh mì</TENMON>
+        <GIA>25000</GIA>
+        <HINHANH>banhmi.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>MON005</MAMON>
+        <TENMON>Gỏi cuốn</TENMON>
+        <GIA>30000</GIA>
+        <HINHANH>goicuon.jpg</HINHANH>
+    </MON>
+    
+    <HOADON>
+        <SOHD>1001</SOHD>
+        <NGAYLAP>2024-01-15</NGAYLAP>
+        <TONGTIEN>120000</TONGTIEN>
+        <MANV>NV001</MANV>
+        <SOBAN>1</SOBAN>
+    </HOADON>
+    <HOADON>
+        <SOHD>1002</SOHD>
+        <NGAYLAP>2024-01-15</NGAYLAP>
+        <TONGTIEN>85000</TONGTIEN>
+        <MANV>NV002</MANV>
+        <SOBAN>2</SOBAN>
+    </HOADON>
+    <HOADON>
+        <SOHD>1003</SOHD>
+        <NGAYLAP>2024-01-16</NGAYLAP>
+        <TONGTIEN>150000</TONGTIEN>
+        <MANV>NV001</MANV>
+        <SOBAN>3</SOBAN>
+    </HOADON>
+    <HOADON>
+        <SOHD>1004</SOHD>
+        <NGAYLAP>2024-01-16</NGAYLAP>
+        <TONGTIEN>95000</TONGTIEN>
+        <MANV>NV003</MANV>
+        <SOBAN>4</SOBAN>
+    </HOADON>
+    <HOADON>
+        <SOHD>1005</SOHD>
+        <NGAYLAP>2024-01-17</NGAYLAP>
+        <TONGTIEN>70000</TONGTIEN>
+        <MANV>NV002</MANV>
+        <SOBAN>5</SOBAN>
+    </HOADON>
+    
+    <THANHTOAN>
+        <SOHD>1001</SOHD>
+        <MAMON>MON001</MAMON>
+        <SOLUONG>2</SOLUONG>
+        <THANHTIEN>90000</THANHTIEN>
+    </THANHTOAN>
+    <THANHTOAN>
+        <SOHD>1001</SOHD>
+        <MAMON>MON004</MAMON>
+        <SOLUONG>1</SOLUONG>
+        <THANHTIEN>25000</THANHTIEN>
+    </THANHTOAN>
+    <THANHTOAN>
+        <SOHD>1002</SOHD>
+        <MAMON>MON002</MAMON>
+        <SOLUONG>1</SOLUONG>
+        <THANHTIEN>40000</THANHTIEN>
+    </THANHTOAN>
+    <THANHTOAN>
+        <SOHD>1002</SOHD>
+        <MAMON>MON005</MAMON>
+        <SOLUONG>1</SOLUONG>
+        <THANHTIEN>30000</THANHTIEN>
+    </THANHTOAN>
+</QUANAN>

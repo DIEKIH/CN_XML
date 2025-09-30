@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:noNamespaceSchemaLocation="DSSV.xsd">
+    <KHOA>
+        <MAKHOA>CNTT</MAKHOA>
+        <TENKHOA>Công Nghệ Thông Tin</TENKHOA>
+    </KHOA>
+    <KHOA>
+        <MAKHOA>KT</MAKHOA>
+        <TENKHOA>Kế Toán</TENKHOA>
+    </KHOA>
+
+     <LOP>
+        <MALOP>CNTTK10</MALOP>
+        <TENLOP>Cong nghe thong tin 2022</TENLOP>
+        <MAKHOA>CNTT</MAKHOA>
+    </LOP>
+     <LOP>
+        <MALOP>KTK10</MALOP>
+        <TENLOP>Kế Toán 2022</TENLOP>
+        <MAKHOA>KT</MAKHOA>
+    </LOP>
+
+    <SINHVIEN>
+        <MASV>SV001</MASV>
+        <HOTEN>Huỳnh Đăng Khoa</HOTEN>
+        <NGAYSINH>2004-01-01</NGAYSINH>
+        <DIACHI>Cần Thơ</DIACHI>
+        <SDT>0123456789</SDT>
+        <MALOP>CNTTK10</MALOP>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MASV>SV002</MASV>
+        <HOTEN>Lê Văn Mộng</HOTEN>
+        <NGAYSINH>2004-01-01</NGAYSINH>
+        <DIACHI>Cần Thơ</DIACHI>
+        <SDT>0123456789</SDT>
+        <MALOP>CNTTK10</MALOP>
+    </SINHVIEN>
+
+     <SINHVIEN>
+        <MASV>SV003</MASV>
+        <HOTEN>Le Van Dinh</HOTEN>
+        <NGAYSINH>2004-07-10</NGAYSINH>
+        <DIACHI>Da Nang</DIACHI>
+        <SDT>0912345678</SDT>
+        <MALOP>KTK10</MALOP>
+    </SINHVIEN>
+</DSSV>
