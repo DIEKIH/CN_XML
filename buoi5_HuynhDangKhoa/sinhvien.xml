@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school>
+    <student>
+        <id>SV01</id>
+        <name>Nguyễn Thị Thanh Dinh</name>
+        <date>2004-01-01</date>
+    </student>
+    
+    <student>
+        <id>SV02</id>
+        <name>Nguyễn Thị Thanh Khang</name>
+        <date>2004-02-01</date>
+    </student>
+    
+    <student>
+        <id>SV03</id>
+        <name>Nguyễn Thị Thanh Mộng</name>
+        <date>2004-03-01</date>
+    </student>
+    
+    <enrollment>
+        <studentRef>SV01</studentRef>
+        <course>Toan01</course>
+    </enrollment>
+    <enrollment>
+        <studentRef>SV02</studentRef>
+        <course>Toan01</course>
+    </enrollment>
+    <enrollment>
+        <studentRef>SV03</studentRef>
+        <course>VatLy01</course>
+    </enrollment>
+    
+</school>
