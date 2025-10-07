@@ -1,0 +1,2 @@
+mysql-connector-python==8.0.33
+lxml==4.9.3
